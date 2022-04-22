@@ -9,16 +9,15 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   /* background-color: #00B4D8; */
-  background: url('/images/play.gif');
-  background-repeat: no-repeat;
-  background-size: 100% cover;
+  background: url('/images/play.gif')no-repeat center center fixed;
+  background-size: cover;
 }
 
-.h3 {
+.h1 {
   font-family: 'Press Start 2P', cursive;
   font-weight: 400;
   font-size: 30px;
-  color: #ffffff;
+  color: orange;
 }
 
 .btnText{
@@ -62,4 +61,9 @@ body {
 
 .btn{
   margin-bottom: 80px;
+}
+
+@media (min-width: 544px) {
+ .h1 {color: #398AB9;}
+ .btnText{color:#ffffff;}
 }
