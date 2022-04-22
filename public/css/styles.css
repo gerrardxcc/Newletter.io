@@ -11,7 +11,7 @@ body {
   /* background-color: #00B4D8; */
   background: url('/images/play.gif');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% cover;
 }
 
 .h3 {
